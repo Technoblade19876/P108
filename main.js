@@ -14,7 +14,7 @@ recognition.onresult = function(event){
 
     Content = event.results[0][0].transcript;
     console.log(Content);
-    if (Content == "Take my selfie."){
+    if (Content == "take my selfie."){
         speak();
     }
 }
